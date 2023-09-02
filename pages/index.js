@@ -61,7 +61,7 @@ export default function Home() {
               <AiFillFacebook />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={ProfilePicture} layout="fill" objectFit="cover" />
+              <Image src={ProfilePicture} alt=" " layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={Camera} width={100} height={100} />
+              <Image src={Camera} alt=" " width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -98,7 +98,7 @@ export default function Home() {
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={PC} width={100} height={100} />
+              <Image src={PC} alt=" " width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream 
               </h3>
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">C++</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={Aptitudes} width={100} height={100} />
+              <Image src={Aptitudes} alt=" " width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Personal Aptitudes</h3>
               <p className="py-2">
                 If you want a great worker, you can work with me.
